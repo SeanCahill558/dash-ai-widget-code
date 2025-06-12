@@ -3,7 +3,7 @@
 
     // Configuration
     const CONFIG = {
-        API_URL: window.DASH_ASSISTANT_API_URL || 'https://dash-assistant-api.onrender.com',
+        API_URL: window.DASH_ASSISTANT_API_URL || 'http://dash-api-prod.us-east-1.elasticbeanstalk.com',
         THEME: window.DASH_ASSISTANT_THEME || 'light',
         REMEMBER_DEALER: window.DASH_REMEMBER_DEALER !== false // Default true
     };
